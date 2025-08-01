@@ -93,6 +93,7 @@ novel-ai-system/
 ```
 
 ## 项目计划
+0. coding with Deepseek-V3
 1. 完成`树测试版本`。
 
 
