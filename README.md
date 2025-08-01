@@ -100,3 +100,5 @@ novel-ai-system/
 ## writing_tree初衷
 针对目前AI难以处理超长文字处理（例如小说等），100w级别，我给出“树折叠结构”---writing_tree，用一颗树来支配所有内容，每次读入一个新的章节后，reminder都会记录下这段文字多维上面的描述，（假如是小说，就记录故事大纲、人物设定、处理铺垫）（发挥概括功能）作为一个新的叶子节点加入到writing_tree里面，并且根据writing_tree的controller评估，向上传递添加的内容，每上升一层，其概括的内容增加，如果父节点的存储大小超过设定大小，就对父节点进行分裂（类似于B+树），依次往上。在树的节点和节点之间，有链将相关信息连在一起，以展现其变化特征。
 其中reminder和controller都是一个agent。
+
+[Adventures_of_Huckleberry_Finn](https://www.gutenberg.org/ebooks/76)
